@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+# datos descargados y resultados (se regeneran con los scripts)
+episodios/*/raw/
+episodios/*/data/
+episodios/*/results/
+episodios/*/charts/
+# nunca subir secretos
+.env
+*.env
+*wallet*.json
+*.key
+*.pem
